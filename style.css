@@ -1,0 +1,32 @@
+header {
+    text-align: center;
+    padding: 20px 0px 40px 0px;
+}
+
+
+.image-profile {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.photo-section {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('https://www.herbertsmithfreehills.com/sites/contenthub_mothership/files/styles/latest_thinking_images__950x650_/public/Locations-Jakarta.jpg?itok=8Tvq5GqU');
+    background-position: 50% 0;
+    height: 600px;
+}
+
+.hello-text {
+    text-align: center;
+    color: white;
+    text-size:60px;
+    padding-top: 40px;
+}
+
+.profile-content {
+    padding: 80px 0px 0px 10px;
+}
