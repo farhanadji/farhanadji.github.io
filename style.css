@@ -15,18 +15,52 @@ header {
 }
 
 .photo-section {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('https://www.herbertsmithfreehills.com/sites/contenthub_mothership/files/styles/latest_thinking_images__950x650_/public/Locations-Jakarta.jpg?itok=8Tvq5GqU');
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),url('https://ohfact.com/wp-content/uploads/2016/07/indonesia-1.jpg') no-repeat;
     background-position: 50% 0;
-    height: 600px;
+    background-size: cover;
+    height: 100%;
 }
 
 .hello-text {
     text-align: center;
     color: white;
-    text-size:60px;
     padding-top: 40px;
+    font-family: 'Francois One', sans-serif;
 }
 
 .profile-content {
-    padding: 0px 0px 0px 10px;
+    padding: 80px 0px 0px 10px;
+}
+
+.left-text {
+    color: white;
+    text-align: center;
+    padding: 5px 100px 20px 100px;
+    font-size: 15px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.center {
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+}
+.btn-custom {
+    transition: background-color 0.5s ease, color 0.5s ease;
+    display: inline-block;
+    color: white;
+    border: solid 2px white;
+    padding: 8px 50px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+.btn-custom:hover {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+h6 {
+     font-family: 'Francois One', sans-serif;
 }
